@@ -343,7 +343,7 @@
       },
       "steps": [
         {
-          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --no-deprecated --dep=dev,peer,prod,optional --filter=@action-validator/cli,@action-validator/core,@cdktf/provider-project,@types/node,jsii-diff,jsii-pacmak,projen,ts-node,typescript"
+          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --no-deprecated --dep=dev,peer,prod,optional --filter=@action-validator/cli,@action-validator/core,@cdktf/provider-project,jsii-diff,jsii-pacmak,projen,ts-node"
         },
         {
           "exec": "yarn install --check-files"
