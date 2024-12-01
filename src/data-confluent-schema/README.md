@@ -1,3 +1,3 @@
 # `data_confluent_schema`
 
-Refer to the Terraform Registry for docs: [`data_confluent_schema`](https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/data-sources/schema).
+Refer to the Terraform Registry for docs: [`data_confluent_schema`](https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/data-sources/schema).
