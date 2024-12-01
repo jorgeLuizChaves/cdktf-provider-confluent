@@ -12,7 +12,7 @@ const project = new CdktfProviderProject({
   name: "cdktf-provider-confluent",
   projenrcTs: true,
   repositoryUrl: "https://github.com/jorgeLuizChaves/cdktf-provider-confluent.git",
-  terraformProvider: "confluentinc/confluent@~> 2.11.0",
+  terraformProvider: "confluentinc/confluent@~> 2.10.0",
   isDeprecated: false,
   npmRegistryUrl: "https://npm.pkg.github.com", // NOTE: switch to gh npm registry
   releaseToNpm: true,
