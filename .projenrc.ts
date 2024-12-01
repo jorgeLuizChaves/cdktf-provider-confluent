@@ -1,6 +1,6 @@
 import { CdktfProviderProject } from "@cdktf/provider-project";
 const project = new CdktfProviderProject({
-  author: "jorge",
+  author: "jorge.oliveira",
   authorAddress: "jorge.luizchaves@yahoo.com.br",
   cdktfVersion: "^0.20.9",
   constructsVersion: "^10.4.2",
