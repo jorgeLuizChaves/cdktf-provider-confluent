@@ -17,7 +17,7 @@ const project = new CdktfProviderProject({
   npmRegistryUrl: "https://npm.pkg.github.com", // NOTE: switch to gh npm registry
   releaseToNpm: true,
   package: true,
-  npmTokenSecret: "NPM_TOKEN", // NOTE: it needs to have write|read|delete:packages permissions and repo scope and
+  // npmTokenSecret: "NPM_TOKEN", // NOTE: it needs to have write|read|delete:packages permissions and repo scope and
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
