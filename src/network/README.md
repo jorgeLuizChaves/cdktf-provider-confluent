@@ -1,3 +1,3 @@
 # `confluent_network`
 
-Refer to the Terraform Registry for docs: [`confluent_network`](https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/network).
+Refer to the Terraform Registry for docs: [`confluent_network`](https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/network).
