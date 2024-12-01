@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key
+// https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * A free-form description of the API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#description ApiKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#description ApiKey#description}
   */
   readonly description?: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#disable_wait_for_ready ApiKey#disable_wait_for_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#disable_wait_for_ready ApiKey#disable_wait_for_ready}
   */
   readonly disableWaitForReady?: boolean | cdktf.IResolvable;
   /**
   * A human-readable name for the API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#display_name ApiKey#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#display_name ApiKey#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#id ApiKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#id ApiKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface ApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * managed_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#managed_resource ApiKey#managed_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#managed_resource ApiKey#managed_resource}
   */
   readonly managedResource?: ApiKeyManagedResource;
   /**
   * owner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#owner ApiKey#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#owner ApiKey#owner}
   */
   readonly owner: ApiKeyOwner;
 }
@@ -49,7 +49,7 @@ export interface ApiKeyManagedResourceEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#id ApiKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#id ApiKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -135,13 +135,13 @@ export interface ApiKeyManagedResource {
   /**
   * The API version of the referred owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#api_version ApiKey#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#api_version ApiKey#api_version}
   */
   readonly apiVersion: string;
   /**
   * The unique identifier for the referred resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#id ApiKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#id ApiKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -150,13 +150,13 @@ export interface ApiKeyManagedResource {
   /**
   * The kind of the referred resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#kind ApiKey#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#kind ApiKey#kind}
   */
   readonly kind: string;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#environment ApiKey#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#environment ApiKey#environment}
   */
   readonly environment: ApiKeyManagedResourceEnvironment;
 }
@@ -317,13 +317,13 @@ export interface ApiKeyOwner {
   /**
   * The API version of the referred owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#api_version ApiKey#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#api_version ApiKey#api_version}
   */
   readonly apiVersion: string;
   /**
   * The unique identifier for the referred owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#id ApiKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#id ApiKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -332,7 +332,7 @@ export interface ApiKeyOwner {
   /**
   * The kind of the referred owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#kind ApiKey#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#kind ApiKey#kind}
   */
   readonly kind: string;
 }
@@ -465,7 +465,7 @@ export class ApiKeyOwnerOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key confluent_api_key}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key confluent_api_key}
 */
 export class ApiKey extends cdktf.TerraformResource {
 
@@ -481,7 +481,7 @@ export class ApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiKey to import
-  * @param importFromId The id of the existing ApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -493,7 +493,7 @@ export class ApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/api_key confluent_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/api_key confluent_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,8 +504,8 @@ export class ApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_api_key',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.11.0',
-        providerVersionConstraint: '~> 2.11.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '~> 2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

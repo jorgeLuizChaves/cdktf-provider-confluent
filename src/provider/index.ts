@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs
+// https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,127 @@ export interface ConfluentProviderConfig {
   /**
   * The Confluent Cloud API Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#cloud_api_key ConfluentProvider#cloud_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#cloud_api_key ConfluentProvider#cloud_api_key}
   */
   readonly cloudApiKey?: string;
   /**
   * The Confluent Cloud API Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#cloud_api_secret ConfluentProvider#cloud_api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#cloud_api_secret ConfluentProvider#cloud_api_secret}
   */
   readonly cloudApiSecret?: string;
   /**
   * The base endpoint of Confluent Cloud API. Defaults to `https://api.confluent.cloud`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#endpoint ConfluentProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#endpoint ConfluentProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The Flink Environment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#environment_id ConfluentProvider#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#environment_id ConfluentProvider#environment_id}
   */
   readonly environmentId?: string;
   /**
   * The Flink API Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#flink_api_key ConfluentProvider#flink_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#flink_api_key ConfluentProvider#flink_api_key}
   */
   readonly flinkApiKey?: string;
   /**
   * The Flink API Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#flink_api_secret ConfluentProvider#flink_api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#flink_api_secret ConfluentProvider#flink_api_secret}
   */
   readonly flinkApiSecret?: string;
   /**
   * The Flink Compute Pool ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#flink_compute_pool_id ConfluentProvider#flink_compute_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#flink_compute_pool_id ConfluentProvider#flink_compute_pool_id}
   */
   readonly flinkComputePoolId?: string;
   /**
   * The Flink Principal ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#flink_principal_id ConfluentProvider#flink_principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#flink_principal_id ConfluentProvider#flink_principal_id}
   */
   readonly flinkPrincipalId?: string;
   /**
   * The Flink REST Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#flink_rest_endpoint ConfluentProvider#flink_rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#flink_rest_endpoint ConfluentProvider#flink_rest_endpoint}
   */
   readonly flinkRestEndpoint?: string;
   /**
   * The Kafka Cluster API Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#kafka_api_key ConfluentProvider#kafka_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#kafka_api_key ConfluentProvider#kafka_api_key}
   */
   readonly kafkaApiKey?: string;
   /**
   * The Kafka Cluster API Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#kafka_api_secret ConfluentProvider#kafka_api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#kafka_api_secret ConfluentProvider#kafka_api_secret}
   */
   readonly kafkaApiSecret?: string;
   /**
   * The Kafka Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#kafka_id ConfluentProvider#kafka_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#kafka_id ConfluentProvider#kafka_id}
   */
   readonly kafkaId?: string;
   /**
   * The Kafka Cluster REST Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#kafka_rest_endpoint ConfluentProvider#kafka_rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#kafka_rest_endpoint ConfluentProvider#kafka_rest_endpoint}
   */
   readonly kafkaRestEndpoint?: string;
   /**
   * Maximum number of retries of HTTP client. Defaults to 4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#max_retries ConfluentProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#max_retries ConfluentProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * The Flink Organization ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#organization_id ConfluentProvider#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#organization_id ConfluentProvider#organization_id}
   */
   readonly organizationId?: string;
   /**
   * The Schema Registry Cluster API Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#schema_registry_api_key ConfluentProvider#schema_registry_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#schema_registry_api_key ConfluentProvider#schema_registry_api_key}
   */
   readonly schemaRegistryApiKey?: string;
   /**
   * The Schema Registry Cluster API Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#schema_registry_api_secret ConfluentProvider#schema_registry_api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#schema_registry_api_secret ConfluentProvider#schema_registry_api_secret}
   */
   readonly schemaRegistryApiSecret?: string;
   /**
   * The Schema Registry Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#schema_registry_id ConfluentProvider#schema_registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#schema_registry_id ConfluentProvider#schema_registry_id}
   */
   readonly schemaRegistryId?: string;
   /**
   * The Schema Registry Cluster REST Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#schema_registry_rest_endpoint ConfluentProvider#schema_registry_rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#schema_registry_rest_endpoint ConfluentProvider#schema_registry_rest_endpoint}
   */
   readonly schemaRegistryRestEndpoint?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#alias ConfluentProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#alias ConfluentProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs confluent}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs confluent}
 */
 export class ConfluentProvider extends cdktf.TerraformProvider {
 
@@ -146,7 +146,7 @@ export class ConfluentProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ConfluentProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfluentProvider to import
-  * @param importFromId The id of the existing ConfluentProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfluentProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfluentProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class ConfluentProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs confluent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs confluent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class ConfluentProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'confluent',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.11.0',
-        providerVersionConstraint: '~> 2.11.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '~> 2.10.0'
       },
       terraformProviderSource: 'confluentinc/confluent'
     });

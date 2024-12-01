@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder
+// https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DnsForwarderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder#display_name DnsForwarder#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder#display_name DnsForwarder#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder#domains DnsForwarder#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder#domains DnsForwarder#domains}
   */
   readonly domains: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder#id DnsForwarder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder#id DnsForwarder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface DnsForwarderConfig extends cdktf.TerraformMetaArguments {
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder#environment DnsForwarder#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder#environment DnsForwarder#environment}
   */
   readonly environment: DnsForwarderEnvironment;
   /**
   * forward_via_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder#forward_via_ip DnsForwarder#forward_via_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder#forward_via_ip DnsForwarder#forward_via_ip}
   */
   readonly forwardViaIp?: DnsForwarderForwardViaIp;
   /**
   * gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder#gateway DnsForwarder#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder#gateway DnsForwarder#gateway}
   */
   readonly gateway: DnsForwarderGateway;
 }
@@ -45,7 +45,7 @@ export interface DnsForwarderEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder#id DnsForwarder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder#id DnsForwarder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -129,7 +129,7 @@ export class DnsForwarderEnvironmentOutputReference extends cdktf.ComplexObject 
 }
 export interface DnsForwarderForwardViaIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder#dns_server_ips DnsForwarder#dns_server_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder#dns_server_ips DnsForwarder#dns_server_ips}
   */
   readonly dnsServerIps?: string[];
 }
@@ -215,7 +215,7 @@ export interface DnsForwarderGateway {
   /**
   * The unique identifier for the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder#id DnsForwarder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder#id DnsForwarder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -299,7 +299,7 @@ export class DnsForwarderGatewayOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder confluent_dns_forwarder}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder confluent_dns_forwarder}
 */
 export class DnsForwarder extends cdktf.TerraformResource {
 
@@ -315,7 +315,7 @@ export class DnsForwarder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsForwarder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsForwarder to import
-  * @param importFromId The id of the existing DnsForwarder that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsForwarder that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsForwarder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -327,7 +327,7 @@ export class DnsForwarder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.11.0/docs/resources/dns_forwarder confluent_dns_forwarder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.10.0/docs/resources/dns_forwarder confluent_dns_forwarder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -338,8 +338,8 @@ export class DnsForwarder extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_dns_forwarder',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.11.0',
-        providerVersionConstraint: '~> 2.11.0'
+        providerVersion: '2.10.0',
+        providerVersionConstraint: '~> 2.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
