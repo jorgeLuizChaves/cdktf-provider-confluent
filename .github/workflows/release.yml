@@ -86,7 +86,7 @@ jobs:
         if: steps.check_status.outputs.is_deprecated == 'true' || steps.check_status.outputs.is_deprecated == true
         env:
           NPM_REGISTRY: npm.pkg.github.com
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |-
           npm set "//$NPM_REGISTRY/:_authToken=$NPM_TOKEN"
           npm deprecate @cdktf/provider-confluent "See https://cdk.tf/imports for details on how to continue to use the confluent provider in your CDK for Terraform (CDKTF) projects by generating the bindings locally."
@@ -168,7 +168,7 @@ jobs:
         env:
           NPM_DIST_TAG: latest
           NPM_REGISTRY: npm.pkg.github.com
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx -p publib@latest publib-npm
       - name: Extract Version
         id: extract-version
