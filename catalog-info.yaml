@@ -3,6 +3,10 @@ kind: Component
 metadata:
   name: cdktf-provider-confluent
   description: pre built cdktf for confluent provider
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
 spec:
   type: library # website, service, and library
   lifecycle: production # production, experimental, and deprecated.
