@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cdktf-provider-confluent
+  description: pre built cdktf for confluent provider
+spec:
+  type: library # website, service, and library
+  lifecycle: production # production, experimental, and deprecated.
+  owner: jorgeLuizChaves 
