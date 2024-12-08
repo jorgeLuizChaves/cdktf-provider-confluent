@@ -10,4 +10,4 @@ metadata:
 spec:
   type: library # website, service, and library
   lifecycle: production # production, experimental, and deprecated.
-  owner: jorgeLuizChaves 
+  owner: user:jorgeLuizChaves 
